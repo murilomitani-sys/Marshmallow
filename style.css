@@ -1,24 +1,35 @@
 body {
-    background-color: rgb(99, 0, 0);
+    background-color: #121214; /* Um cinza bem escuro, estilo "Modo Noturno" */
+    color: #E1E1E6;            /* Um branco suave para a leitura não cansar a vista */
+    font-family: sans-serif;    /* Deixa a letra mais limpa e moderna */
 }
 
-
 h1 {
-    color: tomato;
-    font-size: 75px;
+    color: #00B37E;            /* Um verde elegante para destacar o título */
+    font-size: 48px;           /* Um tamanho grande, mas equilibrado */
+    text-align: center;        /* Centraliza o título no meio da página */
 }
 
 h2 {
-    color: orange;
-    background-color: magenta;
+    color: #94A3B8;               /* Um cinza-azulado elegante */
+    font-size: 28px;
+    border-bottom: 2px solid #334155; /* Uma linha fina e discreta abaixo do título */
+    padding-bottom: 8px;           /* Dá um espacinho entre o texto e a linha */
+    margin-top: 40px;             /* Afasta um pouco o título dos vídeos de cima */
 }
 
-.title2 {
-    color: coral;
-    background-color: gold;
+h2 {
+    color: #94A3B8;               /* Um cinza-azulado elegante */
+    font-size: 28px;
+    border-bottom: 2px solid #334155; /* Uma linha fina e discreta abaixo do título */
+    padding-bottom: 8px;           /* Dá um espacinho entre o texto e a linha */
+    margin-top: 40px;             /* Afasta um pouco o título dos vídeos de cima */
 }
 
-.title3 {
-    color: blue;
-    background-color: brown;
+iframe {
+    width: 100%;                  /* O vídeo se adapta à largura disponível */
+    max-width: 400px;             /* Define um tamanho máximo elegante para cada vídeo */
+    height: 225px;                /* Mantém a proporção de vídeo de cinema (16:9) */
+    border-radius: 12px;          /* Arredonda os cantos dos vídeos */
+    border: none;                 /* Remove bordas antigas */
 }
